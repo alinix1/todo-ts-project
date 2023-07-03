@@ -1,6 +1,6 @@
 .input {
   display: flex;
-  width: 90%;
+  width: 95%;
   position: relative;
   align-items: center;
 }
@@ -44,11 +44,27 @@
   box-shadow: 0 0 5x #000;
 }
 
+.container {
+  display: flex;
+  width: 95%;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .todos {
   display: flex;
-  justify-content: space-evenly;
-  width: 90%;
-  flex-wrap: wrap;
+  width: 47.5%;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #000;
+}
+
+.todos-heading {
+  font-size: 30px;
+  color: #fff;
 }
 
 .todos-single {
@@ -57,7 +73,14 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
+  color: #000;
   background-color: #ff80ff;
+  transition: 0.2s;
+}
+
+.todos-single:hover {
+  box-shadow: 0 0 5px #000;
+  transform: scale(1.03);
 }
 
 .todos-single-text {
@@ -83,14 +106,14 @@ icon {
   }
   .todos {
     width: 95%;
+    margin-bottom: 10px;
   }
-  .todos-single {
-    width: 100%;
+  .container {
+    width: 95%;
+    flex-direction: column;
   }
 }
 
-@media (max-width: 1200px) {
-  .todo-single {
-    width: 40%;
-  }
+.remove {
+  background-color: rgb(112, 128, 144);
 }
