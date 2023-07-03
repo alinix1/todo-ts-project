@@ -1,47 +1,20 @@
-# Getting Started with Create React App
+# Todo App - TypeScript Tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a tutorial on how to create a simple todo application in React.
 
-## Available Scripts
+My next step will be to create my own mini TypeScript React App: A random dog image generator with the ability to fill out a simple form and save dog images.
 
-In the project directory, you can run:
+<img width="1413" alt="Screenshot 2023-07-03 at 4 00 43 PM" src="https://user-images.githubusercontent.com/28677929/250668301-559860df-e273-4d47-bf7c-f55bcff9f60d.png">
 
-### `npm start`
+<img width="1354" alt="Screenshot 2023-07-03 at 4 05 30 PM" src="https://user-images.githubusercontent.com/28677929/250668346-b3698f04-1c0e-4f1c-bb32-c839b06b7ddb.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![2023-07-03 16 03 08](https://user-images.githubusercontent.com/28677929/250668404-ae3e2885-fa39-431d-8fa3-267e02c359db.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![2023-07-03 16 05 50](https://user-images.githubusercontent.com/28677929/250668453-6c1565da-d9c7-4928-975e-bfe123966031.gif)
 
-### `npm test`
+### Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# todo-ts-project
+- Run `npm start` in the terminal
+- Runs the app in the development mode.
+- Open http://localhost:8080 to view it in the browser.
+- The page will reload if you make edits.
